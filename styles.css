@@ -12,12 +12,21 @@ a{
 }
 .navbar{
     display: flex;
+    justify-content: space-between;
+    width: 80%;
 }
 .headerlinks{
     font-size: 18px;
     color: #e5e7eb;
     display: flex;
     list-style-type: none;
+    gap: 10px;
 }
-.navbarleft,{
+.navbarleft{
+    display: flex;
+    margin-left: 20%;
+}
+.narvbarright{
+    display: flex;
+    margin-right: 20%;
 }
