@@ -45,8 +45,9 @@ a{
     flex-direction: column;
 }
 #headerimage{
+    display: flex;
     width: 10px;
-    height: 10px;
+    height: auto;
 }
 .second-section{
     display: flex;
