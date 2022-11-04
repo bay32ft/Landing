@@ -43,14 +43,18 @@ a{
     width: 80%;
     margin: auto;
     flex-direction: column;
+    justify-content: center;
+    align-items:flex-start
 }
 .second-section{
     display: flex;
     background-color: #1f2937;
     justify-content: space-between;
     width: 80%;
-    margin: auto;
+    margin: auto; 
 }
-.headerimage{
-    margin-top: 100px;
+#headerimage{
+width: 500px;
+height: 200px;
+border-radius: 25px;
 }
