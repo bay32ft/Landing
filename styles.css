@@ -8,6 +8,7 @@ a{
 }
 .first-section{
     background-color: #1f2937;
+    padding-bottom: 10em;
 }
 #logo{
     font: size 24px;
@@ -19,16 +20,18 @@ a{
     justify-content: space-between;
     width: 80%;
     margin: auto;
+    padding-bottom: 5em;
 }
 .headerlinks{
     display: flex;
     list-style-type: none;
-    gap: 10px;
+    gap: 50px;
 }
 #boldtextheaderleft{
     font-weight: bolder;
     font-size: 48px;
     color: #f9faf8;
+    margin: 0;
 }
 .headerlinks, #nonboldtextheaderleft, #signupbutton{
     font-size: 18px;
@@ -36,7 +39,11 @@ a{
 }
 #signupbutton{
     background-color: #3882f6;
-    width: 15%;
+    width: 10%;
+    border-radius: 5px;
+    padding: 6px;
+    border:0cm;
+    font-weight: bold;
 }
 .headertextleft{
     display: flex;
@@ -44,17 +51,17 @@ a{
     margin: auto;
     flex-direction: column;
     justify-content: center;
-    align-items:flex-start
+    align-items:flex-start;
 }
 .second-section{
     display: flex;
     background-color: #1f2937;
     justify-content: space-between;
     width: 80%;
-    margin: auto; 
+    margin: auto;
 }
 #headerimage{
-width: 500px;
-height: 200px;
-border-radius: 25px;
+    width: 500px;
+    height: 200px;
+    border-radius: 5px;
 }
