@@ -21,9 +21,34 @@ a{
     margin: auto;
 }
 .headerlinks{
-    font-size: 18px;
-    color: #e5e7eb;
     display: flex;
     list-style-type: none;
     gap: 10px;
+}
+#boldtextheaderleft{
+    font-weight: bolder;
+    font-size: 48px;
+    color: #f9faf8;
+}
+.headerlinks, #nonboldtextheaderleft, #signupbutton{
+    font-size: 18px;
+    color: #e5e7eb;
+}
+#signupbutton{
+    background-color: #3882f6;
+    width: 15%;
+}
+.headertextleft{
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+}
+#headerimage{
+    width: 10px;
+    height: 10px;
+}
+.second-section{
+    display: flex;
+    background-color: #1f2937;
 }
