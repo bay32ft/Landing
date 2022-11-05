@@ -10,7 +10,7 @@ a{
     background-color: #1f2937;
     padding-bottom: 10em;
 }
-#logo{
+#logo, .calltoaction{
     font: size 24px;
     color: #f9faf8;
     font-weight: bolder;
@@ -97,15 +97,18 @@ a{
     font-size: 18px;
 }
 .secondcontainer{
-    padding-bottom: 10em;
+    padding-bottom: 7em;
+    padding-top: 3em;
 }
 .thirdcontainer{
     background-color: #e5e7eb;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     justify-items: center;
+    padding: 5em;
 }
-#quote{
+#quote, #thor{
     font-size: 36px;
     font-style: italic;
     font-weight: lighter;
@@ -114,4 +117,50 @@ a{
     justify-content: center;
     padding-left: 20%;
     padding-right: 20%;
+    margin: 0px;
+}
+#thor{
+    display: flex;
+    justify-content: flex-end;
+    margin: 0px;
+    font-weight: bold;
+}
+.fourthcontainer{
+    display: flex;
+    justify-content: center;
+    padding: 10em;
+}
+.bluebox{
+    display: flex;
+    background-color: #3882f6;
+    border-radius: 5px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+.calltoaction{
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+}
+.boxbutton{
+    display: flex;
+    margin: 50px;
+}
+#signupbutton2{
+    border-color: white;
+    border-width: 5px;
+    border-radius: 5px;
+    background-color: #3882f6;
+    color: white;
+    font-weight: bold;
+    width: 80px;
+    margin: 0%;
+    padding: 10px;
+}
+#signup{
+    font-weight: lighter;
+}
+#calltoaction{
+    font-weight: bold;
+    font-size: 24px;
 }
