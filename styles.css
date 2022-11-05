@@ -148,7 +148,7 @@ a{
 }
 #signupbutton2{
     border-color: white;
-    border-width: 5px;
+    border-width: 3px;
     border-radius: 5px;
     background-color: #3882f6;
     color: white;
@@ -156,6 +156,7 @@ a{
     width: 80px;
     margin: 0%;
     padding: 10px;
+    border-style: solid;
 }
 #signup{
     font-weight: lighter;
@@ -163,4 +164,14 @@ a{
 #calltoaction{
     font-weight: bold;
     font-size: 24px;
+}
+.fifthcontainer{
+    display: flex;
+    background-color: #1f2937;
+    justify-content: center;
+}
+#copyright{
+    color: white;
+    padding: 2em;
+    display: flex;
 }
