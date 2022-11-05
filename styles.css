@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,400;1,300&display=swap');
 *{
     font-family: 'Roboto', sans-serif;
 }
@@ -64,4 +64,54 @@ a{
     width: 500px;
     height: 200px;
     border-radius: 5px;
+}
+#rando{
+    color: #1f2937;
+    font-weight: bolder;
+    font-size: 36px;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    display: flex;
+    justify-content: center;
+}
+.imagecontainer{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+}
+
+.middleimages{
+    border-radius: 10px;
+    width: 200px;
+    height: auto;
+    border: 3px solid #1f2937;
+    padding: 20px;
+}
+.subtextcontainer{
+    display: flex;
+    gap: 3em;
+    justify-content: center;
+    width: 80%;
+}
+.subtext{
+    font-size: 18px;
+}
+.secondcontainer{
+    padding-bottom: 10em;
+}
+.thirdcontainer{
+    background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+}
+#quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1f2937;
+    display: flex;
+    justify-content: center;
+    padding-left: 20%;
+    padding-right: 20%;
 }
